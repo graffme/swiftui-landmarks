@@ -56,8 +56,10 @@
       allowLocationSimulation = "YES"
       launchAutomaticallySubstyle = "8"
       notificationPayloadFile = "WatchLandmarks Extension/PushNotificationPayload.apns">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.Carousel"
+         RemotePath = "/Landmarks">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "43BF6193262C500D00F7B925"
@@ -65,7 +67,7 @@
             BlueprintName = "WatchLandmarks"
             ReferencedContainer = "container:Landmarks.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -75,8 +77,10 @@
       debugDocumentVersioning = "YES"
       launchAutomaticallySubstyle = "8"
       notificationPayloadFile = "WatchLandmarks Extension/PushNotificationPayload.apns">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.Carousel"
+         RemotePath = "/Landmarks">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "43BF6193262C500D00F7B925"
@@ -84,7 +88,16 @@
             BlueprintName = "WatchLandmarks"
             ReferencedContainer = "container:Landmarks.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "43BF6193262C500D00F7B925"
+            BuildableName = "WatchLandmarks.app"
+            BlueprintName = "WatchLandmarks"
+            ReferencedContainer = "container:Landmarks.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
